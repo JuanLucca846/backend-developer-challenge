@@ -1,0 +1,52 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Juan Lucca\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express-async-errors
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Notepad++;C:\Program Files (x86)\Perforce\;C:\Program Files (x86)\Perforce;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Windows\System32;C:\Users\Juan Lucca\AppData\Local\Microsoft\WindowsApps;C:\Users\Juan Lucca\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Juan Lucca\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\Juan Lucca\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Juan Lucca\.dotnet\tools;C:\Users\Juan Lucca\go\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Juan Lucca\Desktop\backendchallenge\node_modules\prisma\engines\b20ead4d3ab9e78ac112966e242ded703f4a052c\query_engine-windows.dll.node'
+
+npm manifest: 
+  {
+    "name": "backendchallenge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "tsnd --respawn --transpile-only src/server.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/express": "^4.17.17",
+      "@types/node": "^20.3.2",
+      "@types/pg": "^8.10.2",
+      "prisma": "^4.16.1",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^5.1.5"
+    },
+    "dependencies": {
+      "@prisma/client": "^4.16.1",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "pg": "^8.11.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
